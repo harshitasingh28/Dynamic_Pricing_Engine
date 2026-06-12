@@ -1,0 +1,24 @@
+# ============================================================
+# DYNAMIC PRICING ENGINE — Requirements (Cloud Compatible)
+# ============================================================
+# Python 3.11 — Pinned in .python-version file
+# These versions have pre-built wheels for Python 3.11
+# ============================================================
+
+# ── Data Manipulation ──
+numpy>=1.26.4,<2.0.0
+pandas>=2.2.2,<3.0.0
+
+# ── Machine Learning ──
+scikit-learn>=1.4.2,<2.0.0
+xgboost>=2.0.3,<3.0.0
+
+# ── Visualization ──
+matplotlib>=3.8.4,<4.0.0
+seaborn>=0.13.2,<1.0.0
+
+# ── Web Application ──
+streamlit>=1.35.0,<2.0.0
+
+# ── Model Persistence ──
+joblib>=1.4.2,<2.0.0
